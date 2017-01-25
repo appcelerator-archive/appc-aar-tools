@@ -1,5 +1,5 @@
 # AAR Transform
-Extract and copy the content from Android Archive (.aar) files.
+Extract and copy the contents from Android Archive (.aar) files.
 
 ## Installation
 `npm install appc-aar-transform`
@@ -18,8 +18,10 @@ transformer.transform(options, function(err, result) {
 
 ### Options
 
-*   aarPathAndFilename (string): The path and filename pointing to the .aar file to process.
-*   outputPath (string): Base directory where the .aar file will be extracted to. The actual content will be extracted into a sub-directory (basename of the AAR file).
-*   assetsDestinationPath (string): If specified, all assets contained in the .aar will be copied to this path.
-*   libraryDestinationPath (string): If specified, all libraries (.jar) contained in the .aar will be copied to this path.
-*   sharedlibraryDestinationPath (string): If specified, all shared libraries (.so) contained in the .aar will be copied to this path.
+| Option | Type | Description |
+|--------|------| ------------|
+| `aarPathAndFilename` | String | The path and filename pointing to the .aar file to process. |
+| `outputPath` | String | Base directory where the .aar file will be extracted to. The actual content will be extracted into a sub-directory (basename of the AAR file). |
+| `assetsDestinationPath` | String | (Optional) Copy all assets contained in the .aar to this path. |
+| `libraryDestinationPath` | String | (Optional) Copy all libraries (.jar) contained in the .aar will to this path. |
+| `sharedlibraryDestinationPath` | String | (Optional) Copy all shared libraries (.so) contained in the .aar to this path. |
