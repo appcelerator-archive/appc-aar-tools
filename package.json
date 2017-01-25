@@ -1,0 +1,30 @@
+{
+  "name": "appc-aar-transform",
+  "version": "1.0.0",
+  "description": "Transforms Android Archive files",
+  "keywords": [
+    "appcelerator",
+    "aar",
+    "transform",
+    "android"
+  ],
+  "homepage": "http://github.com/appcelerator/appc-aar-transform",
+  "bugs": {
+    "url": "https://jira.appcelerator.org/browse/TIMOB"
+  },
+  "license": "MIT",
+  "author": "Jan Vennemann <jvennemann@axway.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/appcelerator/appc-aar-transform.git"
+  },
+  "dependencies": {
+    "async": "^2.1.4",
+    "extract-zip": "^1.6.0",
+    "findit2": "^2.2.3",
+    "fs-extra": "^1.0.0",
+    "node-appc": "^0.2.39",
+    "xmldom": "^0.1.27"
+  }
+}
