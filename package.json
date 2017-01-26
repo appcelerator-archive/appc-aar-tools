@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://jira.appcelerator.org/browse/TIMOB"
   },
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE.txt",
   "author": "Jan Vennemann <jvennemann@axway.com>",
   "main": "index.js",
   "repository": {

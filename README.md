@@ -25,3 +25,30 @@ transformer.transform(options, function(err, result) {
 | `assetsDestinationPath` | String | (Optional) Copy all assets contained in the .aar to this path. |
 | `libraryDestinationPath` | String | (Optional) Copy all libraries (.jar) contained in the .aar will to this path. |
 | `sharedLibraryDestinationPath` | String | (Optional) Copy all shared libraries (.so) contained in the .aar to this path. |
+
+## Contributing
+
+This is an open source project. Please consider forking this repo to improve,
+enhance or fix issues. If you feel like the community will benefit from your
+fork, please open a pull request.
+
+To protect the interests of the contributors, Appcelerator, customers
+and end users we require contributors to sign a Contributors License Agreement
+(CLA) before we pull the changes into the main repository. Our CLA is simple and
+straightforward - it requires that the contributions you make to any
+Appcelerator open source project are properly licensed and that you have the
+legal authority to make those changes. This helps us significantly reduce future
+legal risk for everyone involved. It is easy, helps everyone, takes only a few
+minutes, and only needs to be completed once.
+
+[You can digitally sign the CLA](http://bit.ly/app_cla) online. Please indicate
+your e-mail address in your first pull request so that we can make sure that
+will locate your CLA. Once you've submitted it, you no longer need to send one
+for subsequent submissions.
+
+## License
+
+This project is open source and provided under the [Apache Public License
+(version 2)](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)).
+
+Copyright (c) 2017, [Appcelerator](http://www.appcelerator.com/) Inc. All Rights Reserved.
