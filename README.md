@@ -24,4 +24,4 @@ transformer.transform(options, function(err, result) {
 | `outputPath` | String | Base directory where the .aar file will be extracted to. The actual content will be extracted into a sub-directory (basename of the AAR file). |
 | `assetsDestinationPath` | String | (Optional) Copy all assets contained in the .aar to this path. |
 | `libraryDestinationPath` | String | (Optional) Copy all libraries (.jar) contained in the .aar will to this path. |
-| `sharedlibraryDestinationPath` | String | (Optional) Copy all shared libraries (.so) contained in the .aar to this path. |
+| `sharedLibraryDestinationPath` | String | (Optional) Copy all shared libraries (.so) contained in the .aar to this path. |
