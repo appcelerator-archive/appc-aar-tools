@@ -13,7 +13,10 @@
     "url": "https://jira.appcelerator.org/browse/TIMOB"
   },
   "license": "SEE LICENSE IN LICENSE.txt",
-  "author": "Jan Vennemann <jvennemann@axway.com>",
+  "author": "Appcelerator, Inc. <info@appcelerator.com> (https://appcelerator.com)",
+  "contributors": [
+    "Jan Vennemann <jvennemann@axway.com>"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
