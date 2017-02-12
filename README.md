@@ -7,16 +7,18 @@ Extract and copy the contents from Android Archive (.aar) files.
 ## Usage
 This module is used to extract the contents of an Android Archive (.aar) to a desired location and optionally copy any bundled assets and libraries to a new location.
 
+> Note: All paths are expected to be absolute (you can use `path.join()` for that).
+
 ```js
 var AARTransformer = require('appc-aar-transform');
 var transformer = new AARTransformer(logger) // logger is optional, can be any bunyan based logger
 
 var options = {
   aarPathAndFilename: 'path/to/file.aar',
-  outputPath: 'dist',
-  assetsDestinationPath: 'assets',
-  libraryDestinationPath: 'lib',
-  sharedLibraryDestinationPath: 'jni'
+  outputPath: 'path/to/dist',
+  assetsDestinationPath: 'path/to/assets',
+  libraryDestinationPath: 'path/to/lib',
+  sharedLibraryDestinationPath: 'path/to/jni'
 };
 
 transformer.transform(options, function(err, result) {
