@@ -14,11 +14,11 @@ var AARTransformer = require('appc-aar-transform');
 var transformer = new AARTransformer(logger) // logger is optional, can be any bunyan based logger
 
 var options = {
-  aarPathAndFilename: 'path/to/file.aar',
-  outputPath: 'path/to/dist',
-  assetsDestinationPath: 'path/to/assets',
-  libraryDestinationPath: 'path/to/lib',
-  sharedLibraryDestinationPath: 'path/to/jni'
+  aarPathAndFilename: '/path/to/file.aar',
+  outputPath: '/path/to/dist',
+  assetsDestinationPath: '/path/to/assets',
+  libraryDestinationPath: '/path/to/lib',
+  sharedLibraryDestinationPath: '/path/to/jni'
 };
 
 transformer.transform(options, function(err, result) {
