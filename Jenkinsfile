@@ -1,9 +1,8 @@
 #! groovy
 
-def isPR = false
-isPR = env.BRANCH_NAME.startsWith('PR-')
+def publishableBranches = ["master"]
 
-node('node && npm && npm-publish && nsp && retirejs') {
+node {
   stage('Checkout') {
     checkout scm
   }
@@ -16,8 +15,9 @@ node('node && npm && npm-publish && nsp && retirejs') {
     sh 'npm test'
   }
   stage('Publish') {
-    if (!isPR) {
-				sh 'npm publish'
+    if(publishableBranches.contains(env.BRANCH_NAME)) {
+      echo "Publishing ${env.BRANCH_NAME} branch."
+      sh 'npm publish'
     }
   }
 }
