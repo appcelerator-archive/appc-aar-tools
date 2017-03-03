@@ -2,7 +2,7 @@
 
 def publishableBranches = ["master"]
 
-node {
+node('node && npm && npm-publish && nsp && retirejs') {
   stage('Checkout') {
     checkout scm
   }
