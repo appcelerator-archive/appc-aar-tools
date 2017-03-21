@@ -1,7 +1,7 @@
 {
-  "name": "appc-aar-transform",
+  "name": "appc-aar-tools",
   "version": "1.0.0",
-  "description": "Transforms Android Archive files",
+  "description": "Tools for working with Android Archive files",
   "keywords": [
     "appcelerator",
     "aar",
@@ -27,7 +27,6 @@
     "extract-zip": "^1.6.0",
     "findit2": "^2.2.3",
     "fs-extra": "^1.0.0",
-    "node-appc": "^0.2.39",
     "xmldom": "^0.1.27"
   }
 }
