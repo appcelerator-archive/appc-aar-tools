@@ -33,6 +33,8 @@ transformer.transform(options, function(err, result) {
 });
 ```
 
+All available options for the `transform()` method are described in the following table.
+
 | Option | Type | Description |
 |--------|------| ------------|
 | `aarPathAndFilename` | String | The path and filename pointing to the .aar file to process. |
