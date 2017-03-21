@@ -1,8 +1,8 @@
-# AAR Transform
-Extract and copy the contents from Android Archive (.aar) files.
+# Android Archive Tools for NodeJS
+Set of tools to work with Android Archive (.aar) files outside of the Gradle build pipeline.
 
 ## Installation
-`npm install appc-aar-transform`
+`npm install appc-aar-tools`
 
 ## Usage
 This module is used to extract the contents of an Android Archive (.aar) to a desired location and optionally copy any bundled assets and libraries to a new location.
@@ -10,8 +10,8 @@ This module is used to extract the contents of an Android Archive (.aar) to a de
 > Note: All paths are expected to be absolute (you can use `path.join()` for that).
 
 ```js
-var AARTransformer = require('appc-aar-transform');
-var transformer = new AARTransformer(logger) // logger is optional, can be any bunyan based logger
+var AarTransformer = require('appc-aar-tools').AarTransformer;
+var transformer = new AarTransformer(logger) // logger is optional, can be any bunyan based logger
 
 var options = {
   aarPathAndFilename: '/path/to/file.aar',
