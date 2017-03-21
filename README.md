@@ -43,7 +43,7 @@ All available options for the `transform()` method are described in the followin
 | `libraryDestinationPath` | String | (Optional) Copy all libraries (.jar) contained in the .aar to this path. |
 | `sharedLibraryDestinationPath` | String | (Optional) Copy all shared libraries (.so) contained in the .aar to this path. |
 
-# Generate R.java
+### Generate R.java
 
 Generating the `R.java` from a `R.txt` is handled by the `SymboldLoader` and `SymbolWriter` classes.
 
