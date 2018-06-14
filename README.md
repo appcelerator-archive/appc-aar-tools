@@ -1,4 +1,7 @@
 # Android Archive Tools for NodeJS
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/appcelerator/appc-aar-tools.svg)](https://greenkeeper.io/)
+
 Set of tools to work with Android Archive (.aar) files outside of the Gradle build pipeline.
 
 ## Installation
