@@ -1,0 +1,4 @@
+int anim abc_fade_in 0x7f010001
+int attr actionBarDivider 0x7f040001
+int[] styleable AlertDialog { 0x010100f2, 0x7f040039, 0x7f040078, 0x7f040079, 0x7f040085, 0x7f0400a6, 0x7f0400a7 }
+int styleable MenuItem_android_id 2
