@@ -1,0 +1,9 @@
+# build
+Jenkinsfile
+.nsprc
+
+# testing
+test/
+.nycrc
+coverage/
+.nyc_output/

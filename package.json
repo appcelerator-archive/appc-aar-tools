@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://jira.appcelerator.org/browse/TIMOB"
   },
-  "license": "SEE LICENSE IN LICENSE.txt",
+  "license": "Apache-2.0",
   "author": "Appcelerator, Inc. <info@appcelerator.com> (https://appcelerator.com)",
   "contributors": [
     "Jan Vennemann <jvennemann@axway.com>"
