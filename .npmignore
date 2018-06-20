@@ -7,3 +7,4 @@ test/
 .nycrc
 coverage/
 .nyc_output/
+junit_report.xml
