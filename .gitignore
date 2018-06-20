@@ -2,3 +2,8 @@
 .DS_Store
 node_modules
 npm-debug*.log
+
+# Testing noise
+.nyc_output/
+coverage/
+test/output/

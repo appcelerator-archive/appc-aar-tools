@@ -2,6 +2,9 @@
   "name": "appc-aar-tools",
   "version": "1.1.5",
   "description": "Tools for working with Android Archive files",
+  "scripts": {
+    "test": "nyc jasmine test/**/*.spec.js"
+  },
   "keywords": [
     "appcelerator",
     "aar",
@@ -29,5 +32,10 @@
     "findit2": "^2.2.3",
     "fs-extra": "^1.0.0",
     "xmldom": "^0.1.27"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "nyc": "^12.0.2",
+    "rimraf": "^2.6.2"
   }
 }

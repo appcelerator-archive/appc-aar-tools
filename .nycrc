@@ -1,0 +1,8 @@
+{
+    "cache": true,
+    "reporter": [
+        "cobertura",
+        "html",
+        "text"
+    ]
+}
