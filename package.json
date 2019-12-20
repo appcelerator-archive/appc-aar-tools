@@ -31,7 +31,7 @@
     "extract-zip": "^1.6.7",
     "findit2": "^2.2.3",
     "fs-extra": "^7.0.0",
-    "xmldom": "^0.1.27"
+    "xmldom": "^0.2.1"
   },
   "devDependencies": {
     "jasmine": "^3.1.0",
