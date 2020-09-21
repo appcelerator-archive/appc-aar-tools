@@ -26,7 +26,7 @@
     "url": "http://github.com/appcelerator/appc-aar-transform.git"
   },
   "dependencies": {
-    "async": "^2.1.4",
+    "async": "^3.2.0",
     "deepmerge": "^4.2.2",
     "extract-zip": "^1.6.7",
     "findit2": "^2.2.3",
