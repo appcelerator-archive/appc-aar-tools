@@ -30,7 +30,7 @@
     "deepmerge": "^4.2.2",
     "extract-zip": "^1.6.7",
     "findit2": "^2.2.3",
-    "fs-extra": "^7.0.0",
+    "fs-extra": "^9.0.1",
     "xmldom": "^0.3.0"
   },
   "devDependencies": {
