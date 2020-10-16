@@ -3,6 +3,7 @@
   "version": "1.1.5",
   "description": "Tools for working with Android Archive files",
   "scripts": {
+    "lint": "eslint .",
     "test": "nyc jasmine --reporter=jasmine-junit-reporter test/**/*.spec.js"
   },
   "keywords": [
