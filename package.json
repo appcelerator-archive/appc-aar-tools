@@ -35,7 +35,7 @@
     "xmldom": "^0.3.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
+    "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^11.0.0",
     "eslint": "^7.11.0",
     "eslint-config-axway": "^5.0.0",
