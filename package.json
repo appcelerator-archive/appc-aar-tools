@@ -32,7 +32,7 @@
     "extract-zip": "^1.6.7",
     "findit2": "^2.2.3",
     "fs-extra": "^9.0.1",
-    "xmldom": "^0.3.0"
+    "xmldom": "^0.6.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
